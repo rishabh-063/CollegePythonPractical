@@ -4,15 +4,15 @@ point = (1,2,3)
 colors = {'red','green','blue'}
 student = {'name':"Asha","age":20}
 numbers.append(40)
-student["courese"] = "python"
+student["course"] = "python"
 print(numbers)
 print(point)
 print(colors)
 print(student)
 
-# Create a classm constructor, objects and instance methods.
+# Create a class constructor, objects and instance methods.
 class Student: 
-    def __int__(self,name,marks):
+    def __init__(self,name,marks):
         self.name = name
         self.marks = marks
     def display(self):

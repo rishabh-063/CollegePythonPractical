@@ -6,3 +6,4 @@ with open("student.txt","a") as f:
     f.write("Neha,87\n")
 with open("student.txt","r") as f:
     print(f.read())
+ 
