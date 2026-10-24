@@ -1,5 +1,3 @@
-import sys
-
 
 # from MyPackage.Calculator import add
 
