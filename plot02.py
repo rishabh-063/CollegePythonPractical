@@ -10,4 +10,5 @@ plt.title('Student Marks')
 plt.ylim
 plt.legend()
 plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.savefig('student_marks_bar_plot.png', dpi=300, bbox_inches='tight')
 plt.show()
